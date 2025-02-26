@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Group Project69</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css (tailwind) -->
+    <link rel="stylesheet" href="../dist/main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navbar flex items-center shadow-nav">
+            <div class="container w-full">
+                <div class="navbar-content">
+                    <div class="brand-and-toggler flex items-center justify-between">
+                        <a href="#" class="navbar-brand">reAL NIGGAS <span class="text-green-normal">FROM SECTION C
+                            </span></a>
+                        <button type="button" class="lg:hidden text-white text-2xl" id="navbar-show-btn">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+
+                    <div
+                        class="navbar-collapse fixed right-0 top-0 w-full sm:w-[280px] h-full bg-white shadow-nav-collapse pt-[60px] px-5 pb-4 text-center transition ease-in-out duration-300 transform lg:relative lg:p-0 lg:flex lg:items-center lg:justify-end lg:w-full lg:bg-transparent lg:shadow-none translate-x-full lg:translate-x-0">
+                        <button type="button" class="lg:hidden" id="navbar-hide-btn">
+                            <i class="fa-solid fa-xmark text-2xl"></i>
+                        </button>
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">CRINGEY NERDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">mERCH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">ANIMES</a>
+                            </li>
+                        </ul>
+
+                        <ul class="connect-list">
+                            <li class="connect-text">cONTACT</li>
+                            <li>
+                                <a href="#" class="connect-link">
+                                    <img src="../assets/icons/discord-icon-svgrepo-com.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner-content">
+            <div class="banner-badge">Say "no" to websites with many ads </div>
+            <h1 class="banner-title">upcoming ANIMES TO WATCH</h1>
+            <p class="lead-text">Step into a world where imagination knows no limits—watch anime and experience stories
+                beyond reality!</p>
+            <button type="button" class="banner-btn">
+                <span class="me-4">
+                    <img src="../assets/icons/Telegram.svg" alt="">
+                </span>
+                <span>wATCH NOW! MY NIGGA</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="py-16 sc-popular bg-violet-dark-active">
+        <div class="container bg-container">
+            
+            <div class="sc-title">
+                <h3>popular <span>ANIMES</span></h3>
+                <div class="line"></div>
+            </div>
+            <div class="game-card-list grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover"> <img src="../true assests/main.png" alt="">
+                        <div class="ratings-count"> 1/10 <img src="../assets/icons/star-black.svg" alt="" class="ms-2">
+                        </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">Sousou no Frieren</h4>
+                                <p class="para-text">Overated as fuck and some....</p>
+                            </div>
+                            <div class="star-rating mt-2 sm:mt-0 py-1"> <img src="../assets/icons/star-green.svg"> <img
+                                    src="../assets/icons/star-green.svg"> <img src="../assets/icons/star-green.svg">
+                                <img src="../assets/icons/star-green.svg"> <img
+                                    src="../assets/icons/star-green-half.svg"> </div>
+                        </div>
+                        <div class="block-wrap flex justify-between items-end review">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">Release Date: &nbsp;</p>
+                                    <p>Sep 29, 2023</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">Genre: &nbsp;</p>
+                                    <p>Adventure, Drama, Fantasy...</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-end justify-between"> <a href="#"
+                                    class="btn-primary uppercase">see more</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover"> <img src="../true assests/gay.png" alt="">
+                        <div class="ratings-count"> -5/10 <img src="../assets/icons/star-black.svg" alt="" class="ms-2">
+                        </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">My Hero Academia</h4>
+                                <p class="para-text">Most Insane GAYshippers spotted...</p>
+                            </div>
+                            <div class="star-rating mt-2 sm:mt-0 py-1"> <img src="../assets/icons/star-green.svg"> <img
+                                    src="../assets/icons/star-green.svg"> <img src="../assets/icons/star-green.svg">
+                                <img src="../assets/icons/star-green.svg"> <img
+                                    src="../assets/icons/star-green-half.svg"> </div>
+                        </div>
+                        <div class="block-wrap flex justify-between items-end review">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">Release Date: &nbsp;</p>
+                                    <p>April 3, 2016</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">Genre: &nbsp;</p>
+                                    <p>Shounen,Action,Drama...</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-end justify-between"> <a href="#"
+                                    class="btn-primary uppercase">see more</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover"> <img src="../true assests/Toradora!_DVD_Cover.jpg" alt="">
+                        <div class="ratings-count"> 1000/10 <img src="../assets/icons/star-black.svg" alt=""
+                                class="ms-2"> </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">Toradora!</h4>
+                                <p class="para-text">My wifey's fav anime ...</p>
+                            </div>
+                            <div class="star-rating mt-2 sm:mt-0 py-1"> <img src="../assets/icons/star-green.svg"> <img
+                                    src="../assets/icons/star-green.svg"> <img src="../assets/icons/star-green.svg">
+                                <img src="../assets/icons/star-green.svg"> <img src="../assets/icons/star-green.svg">
+                            </div>
+                        </div>
+                        <div class="block-wrap flex justify-between items-end review">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">Release Date: &nbsp;</p>
+                                    <p>October 3, 2010</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">Genre: &nbsp;</p>
+                                    <p>Comedy,Romance,...</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-end justify-between"> <a href="#"
+                                    class="btn-primary uppercase">see more</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-[60px]"> <a href="#" class="section-btn" center>see more animes</a>
+            </div>
+    </section>
+
+    <div class="py-16 bg-violet-darker overflow-hidden">
+        <div class="game-slider">
+            <div class="slider-item img-fit-cover">
+                <img src="../true assests/FGO1_5_artimg.png" class="slider-item-img">
+            </div>
+            <div class="slider-item img-fit-cover">
+                <img src="../true assests/Dies_Irae_Anime.jpg" class="slider-item-img">
+            </div>
+            <div class="slider-item img-fit-cover">
+                <img src="../true assests/slider3.jpg" class="slider-item-img">
+            </div>
+            <div class="slider-item img-fit-cover">
+                <img src="../true assests/slide.jpg" class="slider-item-img">
+            </div>
+            <div class="slider-item img-fit-cover">
+                <img src="../true assests/legendary-gintama-manga-giga-magazine-debut-938x534.jpg"
+                    class="slider-item-img">
+            </div>
+            <div class="slider-item img-fit-cover">
+                <img src="../true assests/LAST_GAME.png" class="slider-item-img">
+            </div>
+            <div class="slider-item img-fit-cover">
+                <img src="../true assests/y5iyj8kgrs5c1.jpeg" class="slider-item-img">
+            </div>
+        </div>
+    </div>
+
+    <section
+        class="py-16 sc-join flex items-center bg-join-image relative after:absolute after:content-[''] after:bg-gradient-to-b after:from-black/50 after:to-black/50 after:bg-center after:bg-cover after:bg-no-repeat">
+        <div class="container w-full">
+            <div class="join-content">
+                <h2 class="join-title uppercase">join our channel<span> or </span>become an italian</h2>
+                <p class="lead-text py-2">This is a must join channel if you think you are one of our fellows,so called
+                    BRAINROTS.Come and have fun with us.We are losers btw</p>
+                <button type="button" class="section-btn mt-4">join telegram</button>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 sc-posts bg-violet-dark-active">
+        <div class="container">
+            <div class="sc-title">
+                <h3>latest <span>merchandise</span></h3>
+                <div class="line"></div>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <div class="game-post">
+                    <div class="game-post-img">
+                        <img src="../true assests/merch2.jpg" alt="">
+                    </div>
+                    <div class="game-post-body py-4 px-7">
+                        <h3 class="game-post-title pb-3 border-b-[1px] border-b-violet-dark-hover">Saotome Shino Nurse
+                            Ver. by Minori Chigusa</h3>
+
+                        <div class="flex justify-between items-center mt-[10px]">
+                            <span class="font-normal text-[13px]">March 31, 2025 12:00 AM</span>
+                            <p class="text-[13px]">By: <span class="text-green-normal font-semibold">Boomer Nerd</span>
+                            </p>
+                        </div>
+                        <p class="para-text">Product release dates shown are for Japan only.
+                            Please note that some items (such as bonus items) may not be available overseas.
+                            For overseas release schedules....</p>
+
+                        <div class="flex items-center justify-between">
+                            <a href="#" class="btn-secondary uppercase">JPY 19,800 excl. tax</a>
+                            <div class="flex items-center">
+                                <span class="font-bold text-[13px] flex me-[25px]">
+                                    <img src="../assets/icons/eye.svg" alt="" class="w-[20px] me-2"> 23
+                                </span>
+                                <span class="font-bold text-[13px] flex">
+                                    <img src="../assets/icons/message.svg" alt="" class="w-[17px] me-2"> 45
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-post">
+                    <div class="game-post-img">
+                        <img src="../true assests/merch5.jpg" alt="">
+                    </div>
+                    <div class="game-post-body py-4 px-7">
+                        <h3 class="game-post-title pb-3 border-b-[1px] border-b-violet-dark-hover">IT(2017) PENNYWISE
+                            BISHOUJO STATUE</h3>
+
+                        <div class="flex justify-between items-center mt-[10px]">
+                            <span class="font-normal text-[13px]">July 2025 , 12:00 AM</span>
+                            <p class="text-[13px]">By: <span class="text-green-normal font-semibold">Creepy Nerd</span>
+                            </p>
+                        </div>
+                        <p class="para-text">Product release dates shown are for Japan only.
+                            Please note that some items (such as bonus items) may not be available overseas.
+                            For overseas release schedules.....</p>
+
+                        <div class="flex items-center justify-between">
+                            <a href="#" class="btn-secondary uppercase">JPY 15,400 incl. tax</a>
+                            <div class="flex items-center">
+                                <span class="font-bold text-[13px] flex me-[25px]">
+                                    <img src="../assets/icons/eye.svg" alt="" class="w-[20px] me-2"> 23
+                                </span>
+                                <span class="font-bold text-[13px] flex">
+                                    <img src="../assets/icons/message.svg" alt="" class="w-[17px] me-2"> 45
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-post">
+                    <div class="game-post-img">
+                        <img src="../true assests/merch4.jpg" alt="">
+                    </div>
+                    <div class="game-post-body py-4 px-7">
+                        <h3 class="game-post-title pb-3 border-b-[1px] border-b-violet-dark-hover">Ais Wallenstein(From
+                            Danmachi Is It Wrong)</h3>
+
+                        <div class="flex justify-between items-center mt-[10px]">
+                            <span class="font-normal text-[13px]">August 2025 12:00 AM</span>
+                            <p class="text-[13px]">By: <span class="text-green-normal font-semibold">Sigma Nerd</span>
+                            </p>
+                        </div>
+                        <p class="para-text">Product release dates shown are for Japan only.
+                            Please note that some items (such as bonus items) may not be available overseas.
+                            For overseas release schedules....</p>
+
+                        <div class="flex items-center justify-between">
+                            <a href="#" class="btn-secondary uppercase">JPY 17,600</a>
+                            <div class="flex items-center">
+                                <span class="font-bold text-[13px] flex me-[25px]">
+                                    <img src="../assets/icons/eye.svg" alt="" class="w-[20px] me-2"> 23
+                                </span>
+                                <span class="font-bold text-[13px] flex">
+                                    <img src="../assets/icons/message.svg" alt="" class="w-[17px] me-2"> 45
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-[60px]">
+                <a href="#" class="section-btn">see more merchandise</a>
+            </div>
+    </section>
+
+    <section class="py-16 sc-category">
+        <div class="container">
+            <div class="sc-title">
+                <h3>Anime <span>Category</span></h3>
+                <div class="line"></div>
+                <input type="text" class="input-group-field outline-none" placeholder="Search Your Favourite Anime Here ;3" />
+                <button class="input-group-btn" type="button">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+
+
+            <div class="button-group mx-auto filter-button-group flex items-center justify-center flex-wrap">
+                <button data-filter="action">Shounen</button>
+                <button data-filter="shooter">Shoujo</button>
+                <button data-filter="strategy">Gay</button>
+                <button data-filter="arcade">Thriller</button>
+                <button data-filter="adventure">Fantasy</button>
+            </div>
+
+            <div class="mt-16 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden action shooter">
+                    <img src="../true assests/Vanitas_KV_Title.png" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Shounen/Shoujo</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Vanitas No Carte
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden action adventure">
+                    <img src="../true assests/dandadan.jpg" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Shounen/Fantasy</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Dandadan</h3>
+                    </div>
+                </div>
+
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden action strategy adventure">
+                    <img src="../true assests/owari.jpg" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Shounen/Fantasy/Gay</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Owari No Seraph
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden shooter strategy arcade">
+                    <img src="../true assests/Boku_no_Pico.jpg" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Gay/Shoujo/Thriller</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Boku No Pico</h3>
+
+                    </div>
+                </div>
+
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden action">
+                    <img src="../true assests/bleach.jpg" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Shounen</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Bleach</h3>
+
+                    </div>
+                </div>
+
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden arcade adventure">
+                    <img src="../true assests/rezero.jpg" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Thriller/Fantasy</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Re:Zero</h3>
+
+                    </div>
+                </div>
+
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden strategy">
+                    <img src="../true assests/gay.png" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Gay</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">My Hero Academia
+                        </h3>
+
+                    </div>
+                </div>
+
+                <div class="category-item img-fit-cover shadow-category-item overflow-hidden action adventure">
+                    <img src="../true assests/Nanatsu_no_Taizai_Movie_Poster_2.jpg" alt="">
+                    <div class="category-item-info">
+                        <div
+                            class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                            Shounen/Fantasy</div>
+                        <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Seven Deadly Sins
+                        </h3>
+
+                    </div>
+
+                    <div
+                        class="category-item img-fit-cover shadow-category-item overflow-hidden shooter arcade adventure">
+                        <img src="../assets/images/action-9.jpg" alt="">
+                        <div class="category-item-info">
+                            <div
+                                class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                                action</div>
+                            <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Dead Men's
+                                Army</h3>
+
+                        </div>
+
+                        <div class="category-item img-fit-cover shadow-category-item overflow-hidden action adventure">
+                            <img src="../assets/images/action-10.jpg" alt="">
+                            <div class="category-item-info">
+                                <div
+                                    class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                                    action</div>
+                                <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Brutal
+                                    Legend</h3>
+
+                            </div>
+                        </div>
+
+                        <div class="category-item img-fit-cover shadow-category-item overflow-hidden strategy arcade">
+                            <img src="../assets/images/action-11.jpg" alt="">
+                            <div class="category-item-info">
+                                <div
+                                    class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                                    action</div>
+                                <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">
+                                    Injustice: Gods Among Us Ultimate Edition</h3>
+
+                            </div>
+                        </div>
+
+                        <div class="category-item img-fit-cover shadow-category-item overflow-hidden strategy">
+                            <img src="../assets/images/action-12.jpg" alt="">
+                            <div class="category-item-info">
+                                <div
+                                    class="bg-green-normal text-white py-[2px] px-[6px] inline-block uppercase text-xs tracking-widest mb-[6px]">
+                                    action</div>
+                                <h3 class="font-medium text-[18px] tracking-[.03em] uppercase text-white mb-2">Minecraft
+                                </h3>
+
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- slick slider js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- custom script js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
